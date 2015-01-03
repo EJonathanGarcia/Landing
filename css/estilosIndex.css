@@ -1,0 +1,9 @@
+
+.barraNavegacion{
+	height: 63px;
+	padding: 3px
+}
+.button:hover {
+	border: 2px solid green;
+	border-radius: 1em
+}

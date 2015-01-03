@@ -1,0 +1,80 @@
+
+html{
+	font-size: 1em
+}
+body{
+	background: white
+}
+.logoZali img{
+	width: 8.5em;
+	position: absolute;
+	top: -1.1em;
+	left: 0.5em
+}
+.jumbotron{
+	height: 128px;
+}
+.featurette-heading{
+	margin-top: 4%
+}
+.jumbotronIndex{
+	height: 128px; 
+}
+.featurette-headingIndex{
+	margin-top: 10%
+}
+.barra{
+	margin-left: 4em
+}
+.barra li{
+	height: 46px;	
+}
+
+.barraNavegacion{
+	height: 43px;
+	padding: 3px;
+}
+.elementoBarra{
+	margin: 0.1em
+}
+.elementoBarra:hover{
+	border-bottom: 5px solid #33FF00;
+	-webkit-transition: 0.3s; 
+}
+.elementoActivo{
+	border-bottom: 5px solid #33FF00;	
+}
+.cajaSubelementos{
+	padding: 0
+}
+.cajaSubelementos li{
+	height: 3em;
+	padding: 0
+}
+@media(min-width: 768px){
+	.jumbotronIndex{
+	height: 100px; 
+	}
+	.featurette-headingIndex{
+	margin-top: 4%;
+	font-size: 40px
+	}
+}
+@media(max-width: 768px){
+	.jumbotron{
+		height: 100px;
+	}
+	.featurette-headingIndex{
+		margin-top: 1em
+	}
+}
+@media(min-width: 992px){
+	.featurette-heading{
+		margin-top: 0.5em
+	}
+}
+@media(min-width: 1024px){
+	.jumbotron{
+		height: 128px
+	}
+}
