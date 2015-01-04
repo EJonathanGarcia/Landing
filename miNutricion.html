@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Bienvenido a Zali</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/estilosNutricion.css" rel="stylesheet">
+    <link href="dist/css/estilosNav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top barraNavegacion" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logoZali" href="Inicio.html"><img src="imagenes/logo_zali.png" alt=""></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav barra" >
+                <li class="elementoBarra"><a href="Inicio.html">Inicio</a></li>
+                 <li class="dropdown elementoBarra">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Mi perfil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="elementoBarra"><a href="miPerfil.php">Mi perfil</a></li>
+                        <li class="elementoBarra"><a href="insert.php">Modificar mi perfil</a></li>
+                    </ul>
+                  </li>
+                <li class="elementoBarra"><a href="misEjercicios.html">Mis Ejercicios</a></li>
+                <li class="elementoBarra elementoActivo"><a href="miNutricion.hmlt">Mi Nutrición</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right barra">
+                <li class="elementoBarra"><a href="Landing.html " >Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+        <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <div class="container" id="Inicio"> 
+        <div class="jumbotron"> 
+        <center>
+          <h2 class="featurette-heading">MI NUTRICIÓN</h2>
+        </center>
+                                   
+        </div>
+    </div>
+  <section class="infonutri">
+      <div class="alimentos">
+                <ul>
+                  <li>IMC:</li>
+                  <li>Agua a tomar: </li>
+                  <li>Calorías a consumir: </li>
+                </ul>
+              </div>
+  </section>
+    <section class="contenedorMenus"> 
+                  
+            <div class="desayuno">
+            <div class="cajaAyuda">
+            DESAYUNO
+              <div class="alimentos">
+                <ul>
+                  <li>Manzana</li>
+                  <li>Agua</li>
+                  <li>Carne</li> 
+                  <li>Pan</li>
+                </ul>
+              </div>
+              <div class="cajaImagen">
+                <figure class="imagen">
+                  <img src="imagenes/santaclara.jpg" alt="">
+                </figure>
+              </div>
+            </div> 
+            </div>
+            <div class="colacion">
+            <div class="cajaAyuda">
+            COLACIÓN
+              <div class="alimentos">
+                <ul>
+                  <li>Manzana</li>
+                  <li>Agua</li>
+                  <li>Carne</li> 
+                  <li>Pan</li>
+                </ul>
+              </div>
+              <div class="cajaImagen">
+                <figure class="imagen">
+                  <img src="imagenes/galletasmaria.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            </div>
+            <div class="comida">
+            <div class="cajaAyuda">
+            COMIDA
+            <div class="alimentos">
+                <ul>
+                  <li>Manzana</li>
+                  <li>Agua</li>
+                  <li>Carne</li> 
+                  <li>Pan</li>
+                </ul>
+              </div>
+            <div class="cajaImagen">
+                <figure class="imagen">
+                  <img src="imagenes/tostadas.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            </div>
+            <div class="cena">
+            <div class="cajaAyuda">
+            CENA
+            <div class="alimentos">
+                <ul>
+                  <li>Manzana</li>
+                  <li>Agua</li>
+                  <li>Carne</li> 
+                  <li>Pan</li>
+                </ul>
+              </div>
+              <div class="cajaImagen">
+                <figure class="imagen">
+                  <img src="imagenes/yogurth.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            </div>
+            
+            </div>
+    </section>
+    
+<!-- <?php
+
+$conn=mysql_connect('localhost','root','Jeef001$');
+if($conn)
+{
+    //echo("Connection Successfully");
+    $seldb=mysql_select_db('fitnut',$conn);
+    if($seldb)
+    {
+        //echo("Database selected successfully");
+        $retrive=mysql_query("select idNutricion, kcal, desayuno, colacion, comida, cena from nutricion where idNutricion=4",$conn);
+        if($retrive)
+        {
+            //echo("Successfully data retrived<br>");
+            
+            $result=mysql_fetch_row($retrive);
+            
+                echo ("Dieta #:".$result[0]."<br><br>");
+                echo ("kcal   :".$result[1]."<br><br>");
+                echo ("desayuno   :".$result[2]."<br><br>");
+                echo ("colacion   :".$result[3]."<br><br>");
+                echo ("comida     :".$result[4]."<br><br>");
+                echo ("cena       :".$result[5]."<br><br>");
+                    
+        }
+        else
+        {
+        echo "Table not inserted";
+        }
+        }
+        else
+        {
+            die("database not selected");
+        }
+    }
+    else
+    {
+        die("connection faild");    
+    }
+    mysql_close($conn);
+?>    
+    </div>
+        
+
+    --!> 
+    
+      <!-- FOOTER -->
+   
+
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+  </body>
+</html>
