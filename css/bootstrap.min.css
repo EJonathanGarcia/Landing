@@ -34,6 +34,29 @@ navbar
 		padding: 0 3em;
 		word-wrap: break-word;
 	}
+	.aboutUs-up{
+		background:blue;
+	}
+		.aboutUs-up-comment{
+			color: white;
+			text-align: left;
+		}
+			.aboutUs-up-comment strong{
+				color: yellow;
+			}
+	.aboutUs-middle{
+		background: green;
+	}
+		.aboutUs-middle-comment{
+			color: white;
+			text-align: right;
+		}
+	.aboutUs-middle-nutrition{
+		background: purple	
+	}
+		.aboutUs-middle-nutrition-comment{
+			color: white
+		}			
 .usersInfo{
 	width: 100%;
 }
