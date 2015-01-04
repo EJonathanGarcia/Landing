@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link href="dist/css/carousel.css" rel="stylesheet">
+
+    <title>Bienvenido a Zali</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/estilosNav.css">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top nuevonav barraNavegacion" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logoZali" href="Inicio.html"><img src="imagenes/logo_zali.png" alt=""></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav barra" >
+                <li class=" elementoBarra elementoActivo"><a href="Inicio.html">Inicio</a></li>
+                 <li class="dropdown elementoBarra">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Mi perfil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu cajaSubelementos" role="menu">
+                        <li class="elementoBarra subelemento" ><a href="miPerfil.php">Mi perfil</a></li>
+                        <li class="elementoBarra subelemento"><a href="insert.php">Modificar mi perfil</a></li>
+                    </ul>
+                  </li>
+                  
+                <li class="elementoBarra"><a href="misEjercicios.html">Mis Ejercicios</a></li>
+                <li class="elementoBarra"><a href="miNutricion.html">Mi Nutrición</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right barra">
+                <li class="elementoBarra "><a href="Landing.html">Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+ 
+<!-- Left section ======================================== -->
+<section class="left-section">
+    <div class="container" id="Inicio"> 
+        <div class="jumbotron jumbotronIndex"> 
+            <center>
+              <h2 class="featurette-heading featurette-headingIndex ">INICIO</h2>
+              <p class="lead"><?php echo $_SESSION['nombre']?></p>
+            </center>
+                                   
+        </div>
+    <div class="progress progress-striped active">
+            
+        <div class="progress-bar" style="width: 80%;">
+            <p>¡Faltan 540 puntos para la siguiente promo!</p>
+        </div>
+    </div>
+
+<!-- Button regresar mobile recompensas =======================-->
+     <input type="button" class="botonRegresar" value="< Comentarios"> </input> 
+
+   <section class="recompensas">
+        <div class="contenedorArticulos">
+          <div class="articulo articuloSuperior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/cinemex.jpg" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong>2 x 1 en el Cine</strong></p>
+            <p>200 puntos</p>
+            </div>         
+          </div>
+
+          <div class="articulo articuloSuperior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/spotify.jpg" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong>Mes de Premium GRATIS</strong></p>
+            <p>1000 puntos</p>
+            </div>
+          </div>
+
+          <div class="articulo articuloSuperior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/tenisnike.jpg" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong>40% de descuento</strong></p>
+            <p>2500 puntos</p>
+            </div>
+          </div>
+
+          <div class="articulo articuloInferior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/powerade.jpg" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong> Powerade 600ml.</strong></p>
+            <p>150puntos</p>
+            </div>
+          </div>
+
+          <div class="articulo articuloInferior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/ropanike.jpg" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong>Playera NIKE</strong></p>
+            <p>3000 puntos</p>
+            </div>
+          </div>
+
+          <div class="articulo articuloInferior">
+            <figure class="imagenRecompensa">
+              <img src="imagenes/gandhi.gif" alt="">
+            </figure>
+            <div class="infoRecompensa">
+            <p><strong>$500 en puntos</strong></p>
+            <p>700 puntos</p>
+            </div>
+          </div>
+        </div>
+     </section>
+</div>
+</section>
+
+<!-- Button mobile recompensas ============================ -->
+   <input type="button" class="botonRecompensas" value="Recompensas >"> </input>
+
+
+<!-- Right section ====================================== -->
+  <section class="right-section">
+    <section class="arriba">
+        <article class="cajaFormulario">
+          <form action="" class="formulario">
+            <textarea class="textoInput"name="" id="" cols="30" rows="10" placeholder="¿Qué quieres compartir hoy?"></textarea>
+            <input type="url" class="link" placeholder="Link...">
+            <input type="submit" value="Agregar" class="boton">
+          </form>
+        </article>
+  </section>
+  
+  <section class="abajo">
+        <div class="discussion">
+          <div class="discussion-contribution">
+            <div class="discussion-contribution-container">  
+
+              <div class="boxComment-top">  
+              <figure class="avatar">
+                  <img src="imagenes/Jonathan.jpg" alt="">
+              </figure>
+              <div class="usuario"><strong>E. Jonathan García</strong></div>
+              </div>
+
+              <div class="boxComment-comment">
+              <div class="comentario">Si quieres aprender a programar desde cero entra aquí:
+              </div>
+              <span class="hipertexto">
+                <a href ="https://mejorando.la"class="caja-url" target="_black"> mejorando.la</a>
+              </span>
+              </div>
+
+              <div class="boxComment-bottom">
+                <div class="caja-suma"> + </div>
+                <div class="caja-resta"> - </div>
+                <div class="caja-cantidadPuntos">5</div>
+                <div class="caja-puntos">Puntos</div>
+                <div class="answerLink"><a href="#">Responder *</a></div>
+              </div>
+              </div>
+              </div>
+
+            <form action="" class="answerFormulary">
+              <textarea class="answerTextbox"name="" id="" cols="30" rows="10" placeholder="Escribe tu comentario..."></textarea>
+              <input type="submit" value="Comentar" class="answerButton">
+            </form>
+          </div>        
+          </div>      
+        </div>
+
+  </section>  
+
+ <!-- FOOTER 
+      <div class="pie">
+        <footer>
+          <p class="pull-right"><a href="#">Arriba</a></p>
+          <p>&copy; 2014 FitNet. &middot; <a href="#">Aviso de privacidad</a> &middot; <a href="#">Terminos</a></p>
+        </footer>
+      </div>
+
+    </div>
+     -->
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js">      </script>
+  <script src="dist/js/comentarios.js"></script>
+  </body>
+</html>
