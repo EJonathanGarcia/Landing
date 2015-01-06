@@ -160,6 +160,9 @@ footer{
 		padding: 0.7em;
 		width: 9em;
 		text-align:center;
+		position: absolute;
+		top: 15%;
+		left: 10%
 	}
 	.botonRegresar{
 		background: #33CC00;
@@ -172,7 +175,7 @@ footer{
 		width: 9em;
 		text-align:center;
 		position: absolute;
-		top: 23%;
+		top: 15%;
 		left: 10%
 	}
  
@@ -582,7 +585,13 @@ footer{
 	.botonRecompensas{
 		display: block;
 		position: absolute;
-			top: 23%;
+			top: 15%;
+			left: 10%;
+	}
+	.botonRegresar{
+		display: block;
+		position: absolute;
+			top: 15%;
 			left: 10%;
 	}
 
