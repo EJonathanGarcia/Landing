@@ -35,27 +35,86 @@ navbar
 		word-wrap: break-word;
 	}
 	.aboutUs-up{
-		background:blue;
+		position: relative;
 	}
-		.aboutUs-up-comment{
+	.aboutUs-up img, .aboutUs-middle img, .aboutUs-middle-bottom img, .aboutUs-bottom img{
+		width: 100%
+	}
+		.aboutUs-up-comment-one,.aboutUs-up-comment-two, .aboutUs-up-comment-three, .aboutUs-up-comment-four{
 			color: white;
 			text-align: left;
 		}
-			.aboutUs-up-comment strong{
-				color: yellow;
+			.aboutUs-up-comment-one{
+				position: absolute;
+				top: 3%;
+				text-align: center;
+				left: 5%;
+				width: 10em;
 			}
+			.aboutUs-up-comment-two{
+				position: absolute;
+				top: 37%;
+				right: 3%;
+				width: 15em
+			}
+				.aboutUs-up-comment-two strong{
+					color: yellow;
+				}
+			.aboutUs-up-comment-three{
+				position: absolute;
+				top: 58%;
+				right: 3%;
+				
+			}
+			.aboutUs-up-comment-four{
+				position: absolute;
+				top: 77%;
+				text-align: center; 
+				right: 5%;
+				width: 14em
+			}		
 	.aboutUs-middle{
-		background: green;
+		position: relative;
 	}
-		.aboutUs-middle-comment{
+		.aboutUs-middle-comment-one, .aboutUs-middle-comment-two{
 			color: white;
 			text-align: right;
 		}
-	.aboutUs-middle-nutrition{
-		background: purple	
+			.aboutUs-middle-comment-one{
+				position: absolute;
+				top: 5%;
+				left:5%;
+				width: 11em
+			}
+			.aboutUs-middle-comment-two{
+				position: absolute;
+				top: 57%;
+				left: 3%;
+				width: 18em
+			}
+		.aboutUs-middle-bottom{
+			position: relative;
+		}
+
+			.aboutUs-middle-bottom h3{
+				color: blue
+			}
+			.aboutUs-middle-bottom h2{
+				color: white;
+				position: absolute;
+				top: 6em;
+				text-align: center;
+
+			}	
+	.aboutUs-bottom{
+		position: relative;	
 	}
-		.aboutUs-middle-nutrition-comment{
-			color: white
+		.aboutUs-bottom-comment-one{
+			color: black;
+			position: absolute;
+			top: 7em;
+			right:1em;
+			width: 10em
 		}			
 .usersInfo{
 	width: 100%;
