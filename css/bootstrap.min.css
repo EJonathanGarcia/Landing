@@ -565,15 +565,15 @@ footer{
 		height: 43em
 	}
 	.arriba{
-		width: 77%;
+		width: 97%;
 		top: 10%;
-		left: 22%
+		left: 12%
 	}
 	.abajo{
 		margin-top: 1em;
 		top: 7.5%;
-		left: 22%;
-		width: 77%
+		left: 12%;
+		width: 97%
 	}
 	.progress{
 		width: 100%;
