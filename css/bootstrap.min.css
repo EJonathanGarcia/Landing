@@ -156,9 +156,9 @@ footer{
 		border-bottom: 3px solid #339900;
 		color: white;
 		display: none;
-		font-size: 1rem;		
+		font-size: 16px;		
 		padding: 0.7em;
-		width: 25%;
+		width: 9em;
 		text-align:center;
 	}
 	.botonRegresar{
@@ -286,7 +286,7 @@ footer{
 	.textoInput{
 		border: 1px solid #B0B0B0;
 		border-radius: 0.5em;
-		padding: 0.8em 0em 0em 0em;
+		padding: 0.2em 0em 0em 0em;
 		position: absolute;
 		top:4%;
 		left: 9%;
@@ -570,11 +570,12 @@ footer{
 	.arriba{
 		width: 77%;
 		top: 10%;
-		left: 12%
+		left: 22%
 	}
 	.abajo{
+		margin-top: 1em;
 		top: 7.5%;
-		left: 12%;
+		left: 22%;
 		width: 77%
 	}
 	.progress{
