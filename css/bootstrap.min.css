@@ -420,25 +420,22 @@ footer{
 		display: none;
 		padding: 0.5em;
 		width: 100%;
-		height: 5em;
+		height: 8.5em;
 		position:relative;
 	}			
 		.answerTextbox{
 			height: 4em;
-			width: 35em;
+			width: 100%;
 			padding: 1.25em 1em 1em 1em;
 		}
 		.answerButton{
 			background: #33CC00;
 			color: white;
-			font-size: 18px;
+			font-size: 14px;
 			border:1px solid #33CC00;
 			border-bottom: 3px solid #339900;
 			border-radius: 0.2em;
 			padding: 0.5em;
-			margin-left: 1em;
-			position: absolute;
-			top: 0.5em
 		}
 			
 @media (max-width: 1025px ){
