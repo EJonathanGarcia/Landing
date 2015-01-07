@@ -111,10 +111,11 @@ navbar
 		}
 
 			.aboutUs-middle-bottom h3{
-				color: blue
+				color: blue;
 			}
 			.aboutUs-middle-bottom h2{
 				color: white;
+				margin: 0 2em 0 2em;
 				position: absolute;
 				top: 40%;
 				text-align: center;
@@ -129,7 +130,23 @@ navbar
 			top: 30%;
 			right:0em;
 			width: 10em
-		}			
+		}
+
+@media (min-width: 720px){
+ 	.aboutUs-up-comment-one,
+ 	.aboutUs-up-comment-two,
+ 	.aboutUs-up-comment-three,
+ 	.aboutUs-up-comment-four,
+ 	.aboutUs-middle-comment-one,
+ 	.aboutUs-middle-comment-two,
+ 	.aboutUs-bottom-comment-one
+ 	{
+ 		font-size: 1.5em
+ 	}
+ 	.aboutUs-middle-bottom h3{
+				margin-right:12em;
+			}	
+ }			
 .usersInfo{
 	width: 100%;
 }
@@ -219,7 +236,9 @@ footer{
 	background: #B0B0B0;
 	padding: 1em
 
-}		 	
+}
+ 
+
 
 /* FINISH CONTENT ABOUT US ==================== */
 
