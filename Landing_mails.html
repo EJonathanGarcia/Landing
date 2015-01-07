@@ -140,25 +140,25 @@
             <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <center><h4 class="modal-title" id="myModalLabel">INICIAR SESIÓN</h4></center>
+                <center><h2 class="modal-title" id="myModalLabel">Registrarme</h2></center>
                 </div>
                 <div class="modal-body">
                     <center>
                         <form class="navbar-form" action="select.php" method="post">
                             <div class="row" >
                                 <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>CORREO:</td>
-                                            <td><input type="email" name="email" id="email" class="span2" required oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>PASSWORD:</td>
-                                            <td><input type="password" name="password" class="span2" required oninvalid="InvalidMsg2(this);"></td>
-                                        </tr>
-                                    </tbody>
+                                    <div class="tbody-zali">
+                                        <div class="div-zali">
+                                            <div><strong>Nombre:</strong></div>
+                                            <div><input type="email" name="email" id="email" class="span2" required oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);"></div>
+                                        </div>
+                                        <div class="div-zali">
+                                            <div><strong>Correo:</strong></div>
+                                            <div><input type="password" name="password" class="span2" required oninvalid="InvalidMsg2(this);"></div>
+                                        </div>
+                                    </div>
                                 </table>
-                                <input type="submit" class="btn btn-lg btn-primary" role="button" id="button" name="button" value="Entrar">
+                                <input type="submit" class="btn btn-lg btn-primary" role="button" id="button" name="button" value="Enviar">
                                 <input type="button" class="btn btn-lg btn-primary" data-dismiss="modal" value="Cerrar">
                               </div>
                         </form>    
