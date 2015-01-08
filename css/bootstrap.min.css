@@ -141,9 +141,16 @@ navbar
  	{
  		font-size: 2em
  	}
+ 	.aboutUs-up-comment-four{
+ 		top: 78%
+ 	}
  	.aboutUs-middle-bottom h2{
  		margin-left:0;
  		font-size: 4em
+ 	}
+ 	.button-mails{
+ 		padding: 14px;
+ 		top: -1px
  	}			
 .usersInfo{
 	width: 100%;
