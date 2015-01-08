@@ -129,7 +129,18 @@ navbar
 			top: 30%;
 			right:0em;
 			width: 10em
-		}			
+		}
+@media (min-width: 910px){
+ 	.aboutUs-up-comment-one,
+ 	.aboutUs-up-comment-two,
+ 	.aboutUs-up-comment-three,
+ 	.aboutUs-up-comment-four,
+ 	.aboutUs-middle-comment-one,
+ 	.aboutUs-middle-comment-two,
+ 	.aboutUs-bottom-comment-one
+ 	{
+ 		font-size: 1.5em
+ 	}			
 .usersInfo{
 	width: 100%;
 }
