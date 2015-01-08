@@ -140,6 +140,9 @@ navbar
  	.aboutUs-bottom-comment-one
  	{
  		font-size: 2em
+ 	}
+ 	.aboutUs-middle-bottom h3{
+ 		margin-right: 0 2em 0 2em
  	}			
 .usersInfo{
 	width: 100%;
