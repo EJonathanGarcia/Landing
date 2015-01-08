@@ -144,6 +144,11 @@ navbar
  	.aboutUs-up-comment-four{
  		top: 78%
  	}
+ 	.aboutUs-middle-bottom h3 {
+ 		font-size: 2.5em;
+ 		margin: 0;
+ 		padding: 0.7em
+ 	}
  	.aboutUs-middle-bottom h2{
  		margin-left:0;
  		font-size: 4em
