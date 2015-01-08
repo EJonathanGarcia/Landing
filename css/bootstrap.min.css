@@ -131,12 +131,9 @@ navbar
 			right:0em;
 			width: 10em
 		}
-<<<<<<< HEAD
 
-@media (min-width: 720px){
-=======
 @media (min-width: 910px){
->>>>>>> v_desktop
+
  	.aboutUs-up-comment-one,
  	.aboutUs-up-comment-two,
  	.aboutUs-up-comment-three,
@@ -145,14 +142,6 @@ navbar
  	.aboutUs-middle-comment-two,
  	.aboutUs-bottom-comment-one
  	{
-<<<<<<< HEAD
- 		font-size: 1.5em
- 	}
- 	.aboutUs-middle-bottom h3{
-				margin-right:12em;
-			}	
- }			
-=======
  		font-size: 2em
  	}
  	.aboutUs-up-comment-four{
@@ -174,7 +163,7 @@ navbar
  		padding: 14px;
  		top: -1px
  	}			
->>>>>>> v_desktop
+
 .usersInfo{
 	width: 100%;
 }
