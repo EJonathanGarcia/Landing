@@ -131,8 +131,12 @@ navbar
 			right:0em;
 			width: 10em
 		}
+<<<<<<< HEAD
 
 @media (min-width: 720px){
+=======
+@media (min-width: 910px){
+>>>>>>> v_desktop
  	.aboutUs-up-comment-one,
  	.aboutUs-up-comment-two,
  	.aboutUs-up-comment-three,
@@ -141,12 +145,36 @@ navbar
  	.aboutUs-middle-comment-two,
  	.aboutUs-bottom-comment-one
  	{
+<<<<<<< HEAD
  		font-size: 1.5em
  	}
  	.aboutUs-middle-bottom h3{
 				margin-right:12em;
 			}	
  }			
+=======
+ 		font-size: 2em
+ 	}
+ 	.aboutUs-up-comment-four{
+ 		top: 78%
+ 	}
+ 	.aboutUs-middle-bottom h3 {
+ 		font-size: 2.5em;
+ 		margin: 0;
+ 		padding: 0.7em
+ 	}
+ 	.aboutUs-middle-bottom h2{
+ 		margin-left:0;
+ 		font-size: 4em
+ 	}
+ 	.aboutUs-bottom-comment-one{
+ 		font-size: 3em
+ 	}
+ 	.button-mails{
+ 		padding: 14px;
+ 		top: -1px
+ 	}			
+>>>>>>> v_desktop
 .usersInfo{
 	width: 100%;
 }
