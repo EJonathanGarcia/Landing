@@ -139,10 +139,10 @@ navbar
  	.aboutUs-middle-comment-two,
  	.aboutUs-bottom-comment-one
  	{
- 		font-size: 2em
+ 		font-size: 4em
  	}
  	.aboutUs-middle-bottom h2{
- 		margin-right: 0 2em 0 2em
+ 		margin-left:0
  	}			
 .usersInfo{
 	width: 100%;
