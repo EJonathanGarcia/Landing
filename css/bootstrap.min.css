@@ -188,15 +188,15 @@ footer{
 						margin-left: 1em
 					}
 			.footerContent-infoZali-button{
-				background:#33FF00;
-				border: 1px solid #33FF00;
+				background:#00CC00;
+				border: 1px solid #00CC00;
 				border-radius: 0.5em;
 				padding: 0.8em
 			}
 				.footerContent-infoZali-button:hover{
 					background:white;
 					border: 1px solid white;
-					color: #33FF00;
+					color: #00CC00;
 					-webkit-transition:0.3s;
 				}		
 
