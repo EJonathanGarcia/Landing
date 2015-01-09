@@ -131,7 +131,14 @@ navbar
 			right:0em;
 			width: 10em
 		}
-
+footer{
+	text-align: left;
+	padding: 2em;
+}
+	footer li{
+		list-style: none;
+	}
+		
 @media (min-width: 910px){
 
  	.aboutUs-up-comment-one,
@@ -163,6 +170,7 @@ navbar
  		padding: 14px;
  		top: -1px
  	}			
+/*====FINISH LANDING_MAILS.HTML STYLES ============================================= */
 
 .usersInfo{
 	width: 100%;
