@@ -154,7 +154,7 @@ footer{
 	.footerContent-contactinfo{
 		background:black;
 		color: white;
-		padding: 2em
+		padding: 1em
 	}
 
 		.footerContent-contactinfo-followUs{
@@ -170,6 +170,7 @@ footer{
 		.footerContent-contactinfo-infoZali{
 			border-left: 1px solid white;
 			display: inline-block;
+			margin-left: 1.5em;
 			vertical-align: top;
 		}
 			.footerContent-contactinfo-infoZali a{
