@@ -211,6 +211,9 @@ footer{
 
 
 @media (min-width: 910px){
+	footer{
+		font-weight: bold;
+	}
 
  	.aboutUs-up-comment-one,
  	.aboutUs-up-comment-two,
@@ -240,7 +243,25 @@ footer{
  	.button-mails{
  		padding: 14px;
  		top: -1px
+ 	}
+ 	.footerContent-contactinfo-followUs{
+ 		margin-left: 17em;
+ 		margin-top: 1em;
+ 	}
+ 		.footerContent-contactinfo-followUs a{
+ 			font-size: 1.2em
+ 		}
+ 	.footerContent-contactinfo-infoZali{
+ 		margin-left: 5em;
+ 		margin-top: 1em;
  	}			
+ 	.footerContent-infoZali{
+ 		margin: 1em 0 0 5em;
+ 		display: inline-block;
+ 		width: 25%;
+ 		text-align: justify;
+ 	}
+ 	
 /*====FINISH LANDING_MAILS.HTML STYLES ============================================= */
 
 .usersInfo{
